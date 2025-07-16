@@ -1,0 +1,15 @@
+# IGNORA immagini
+GTES logo.png
+logo golf gte 8.jpg
+
+# IGNORA file specifico
+updater-service.py
+
+# IGNORA cartelle di build
+GTEs-BE/bin/
+GTEs-BE/obj/
+
+# Ignora backup e file temporanei
+*.log
+*.tmp
+*.db

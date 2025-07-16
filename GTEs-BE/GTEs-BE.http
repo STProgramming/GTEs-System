@@ -1,0 +1,6 @@
+@GTEs_BE_HostAddress = http://localhost:5045
+
+GET {{GTEs_BE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
