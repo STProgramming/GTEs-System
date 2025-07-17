@@ -23,13 +23,13 @@ namespace GTEs_BE.Services
 
         public async Task<Viaggio?> GetTripAsync(Guid id)
         {
-            await using var context = await _context.CreateDbContextAsync();
+            using var context = await _context.CreateDbContextAsync();
             return await context.Viaggi.Include(t => t.Stops).FirstOrDefaultAsync(t => t.Id == id);
         }
 
         public async Task<Viaggio> CreateTripAsync(ViaggioInputModel model)
         {
-            await using var context = await _context.CreateDbContextAsync();
+            using var context = await _context.CreateDbContextAsync();
             var trip = new Viaggio
             {
                 Id = Guid.NewGuid(),
@@ -47,7 +47,7 @@ namespace GTEs_BE.Services
 
         public async Task<bool> DeleteTripAsync(Guid id)
         {
-            await using var context = await _context.CreateDbContextAsync();
+            using var context = await _context.CreateDbContextAsync();
             var trip = await context.Viaggi.Include(t => t.Stops).FirstOrDefaultAsync(t => t.Id == id);
             if (trip == null) return false;
             context.Viaggi.Remove(trip);
@@ -57,7 +57,7 @@ namespace GTEs_BE.Services
 
         public async Task<bool> AddStopAsync(Guid tripId, Fermata stop)
         {
-            await using var context = await _context.CreateDbContextAsync();
+            using var context = await _context.CreateDbContextAsync();
             var trip = await context.Viaggi.Include(t => t.Stops).FirstOrDefaultAsync(t => t.Id == tripId);
             if (trip == null) return false;
 
@@ -69,7 +69,7 @@ namespace GTEs_BE.Services
 
         public async Task<bool> RemoveStopAsync(Guid tripId, Guid stopId)
         {
-            await using var context = await _context.CreateDbContextAsync();
+            using var context = await _context.CreateDbContextAsync();
             var trip = await context.Viaggi.Include(t => t.Stops).FirstOrDefaultAsync(t => t.Id == tripId);
             if (trip == null) return false;
 
@@ -83,7 +83,7 @@ namespace GTEs_BE.Services
 
         public async Task<Viaggio?> UpdateTripAsync(Guid idViaggio, ViaggioInputModel updatedTrip)
         {
-            await using var context = await _context.CreateDbContextAsync();
+            using var context = await _context.CreateDbContextAsync();
             var existing = await context.Viaggi.Include(t => t.Stops).FirstOrDefaultAsync(t => t.Id == idViaggio);
             if (existing == null) return null;
 

@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|c:\\users\\stcor\\documents\\repositories\\gtes-system\\gtes-be\\services\\tripsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|solutionrelative:services\\tripsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|c:\\users\\stcor\\documents\\repositories\\gtes-system\\gtes-be\\datas\\modelsentity\\viaggio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|solutionrelative:datas\\modelsentity\\viaggio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|c:\\users\\stcor\\documents\\repositories\\gtes-system\\gtes-be\\controllers\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|solutionrelative:controllers\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|c:\\users\\stcor\\documents\\repositories\\gtes-system\\gtes-be\\datas\\modelsentity\\abitudine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|solutionrelative:datas\\modelsentity\\abitudine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|c:\\users\\stcor\\documents\\repositories\\gtes-system\\gtes-be\\controllers\\systemstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|solutionrelative:controllers\\systemstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|c:\\users\\stcor\\documents\\repositories\\gtes-system\\gtes-be\\datas\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|solutionrelative:datas\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|c:\\users\\stcor\\documents\\repositories\\gtes-system\\gtes-be\\datas\\modelsentity\\notifica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|solutionrelative:datas\\modelsentity\\notifica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|c:\\users\\stcor\\documents\\repositories\\gtes-system\\gtes-be\\services\\systemsettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|solutionrelative:services\\systemsettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|c:\\users\\stcor\\documents\\repositories\\gtes-system\\gtes-be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{841C92CC-6BCE-4BD5-B204-2B15A38059B5}|GTEs-BE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,71 +44,58 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TripsService.cs",
-              "DocumentMoniker": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Services\\TripsService.cs",
-              "RelativeDocumentMoniker": "Services\\TripsService.cs",
-              "ToolTip": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Services\\TripsService.cs",
-              "RelativeToolTip": "Services\\TripsService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAgwCoAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Datas\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "Datas\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Datas\\ApplicationContext.cs",
+              "RelativeToolTip": "Datas\\ApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T12:11:49.3Z",
+              "WhenOpened": "2025-07-17T11:56:20.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Viaggio.cs",
+              "DocumentMoniker": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Datas\\ModelsEntity\\Viaggio.cs",
+              "RelativeDocumentMoniker": "Datas\\ModelsEntity\\Viaggio.cs",
+              "ToolTip": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Datas\\ModelsEntity\\Viaggio.cs",
+              "RelativeToolTip": "Datas\\ModelsEntity\\Viaggio.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:55:55.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TripsController.cs",
-              "DocumentMoniker": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Controllers\\TripsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TripsController.cs",
-              "ToolTip": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Controllers\\TripsController.cs",
-              "RelativeToolTip": "Controllers\\TripsController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAswAIAAAAYAAAAAAAAAA==",
+              "Title": "Abitudine.cs",
+              "DocumentMoniker": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Datas\\ModelsEntity\\Abitudine.cs",
+              "RelativeDocumentMoniker": "Datas\\ModelsEntity\\Abitudine.cs",
+              "ToolTip": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Datas\\ModelsEntity\\Abitudine.cs",
+              "RelativeToolTip": "Datas\\ModelsEntity\\Abitudine.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T12:11:32.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SystemStatusController.cs",
-              "DocumentMoniker": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Controllers\\SystemStatusController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SystemStatusController.cs",
-              "ToolTip": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Controllers\\SystemStatusController.cs",
-              "RelativeToolTip": "Controllers\\SystemStatusController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T12:11:25.379Z",
+              "WhenOpened": "2025-07-17T11:55:33.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Notifica.cs",
-              "DocumentMoniker": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Datas\\ModelsEntity\\Notifica.cs",
-              "RelativeDocumentMoniker": "Datas\\ModelsEntity\\Notifica.cs",
-              "ToolTip": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Datas\\ModelsEntity\\Notifica.cs",
-              "RelativeToolTip": "Datas\\ModelsEntity\\Notifica.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBcAAAAtAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T12:11:11.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SystemSettingsService.cs",
-              "DocumentMoniker": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Services\\SystemSettingsService.cs",
-              "RelativeDocumentMoniker": "Services\\SystemSettingsService.cs",
-              "ToolTip": "C:\\Users\\STCor\\Documents\\Repositories\\GTEs-System\\GTEs-BE\\Services\\SystemSettingsService.cs",
-              "RelativeToolTip": "Services\\SystemSettingsService.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T09:43:00.236Z",
+              "WhenOpened": "2025-07-17T11:52:10.467Z",
               "EditorCaption": ""
             }
           ]

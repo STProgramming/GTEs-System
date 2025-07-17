@@ -19,5 +19,6 @@ namespace GTEs_BE.Datas
         public virtual DbSet<Contatto> Contatti {  get; set; }
 
         public virtual DbSet<Notifica> Notifiche { get; set; }
+        
     }
 }

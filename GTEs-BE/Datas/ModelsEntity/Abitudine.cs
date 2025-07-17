@@ -52,6 +52,9 @@ namespace GTEs_BE.Datas.ModelsEntity
         public bool TriggerTripPlanner { get; set; }
         public TripMode? PreferredTripMode { get; set; }
 
+        [ForeignKey(nameof(Viaggio))]
+        public Guid? IdTrip { get; set; }
+
         public Viaggio? AssociatedTrip { get; set; } = null;
 
         // RaceChip

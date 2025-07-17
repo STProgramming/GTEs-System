@@ -45,10 +45,6 @@ namespace GTEs_BE.Datas.ModelsEntity
         [Required]
         public bool IncludeTouristSuggestions { get; set; } = true;
 
-        public Guid? IdHabit { get; set; } = null;
-
-        public Abitudine? AssociatedHabit { get; set; } = null;
-
         [Required]
         public bool IsConfirmed { get; set; } = false;
     }
